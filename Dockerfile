@@ -39,4 +39,5 @@ ADD https://s3.us-east-2.amazonaws.com/softup-artifacts/nullex/nullexd /root/nul
 ADD https://s3.us-east-2.amazonaws.com/softup-artifacts/nullex/nullex-cli /root/nullex-cli
 ADD https://s3.us-east-2.amazonaws.com/softup-artifacts/nullex/nullex-qt /root/nullex-qt
 
+RUN chmod 0755 /root/nullex*
 
